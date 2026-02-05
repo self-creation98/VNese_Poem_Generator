@@ -1,7 +1,7 @@
-🖋️ Poem Generator (Google Colab Version)
+##🖋️ Poem Generator (Google Colab Version)
 Dự án này sử dụng mô hình AI để tự động tạo thơ, được thiết kế để chạy trực tiếp trên Google Colab mà không cần cài đặt phức tạp trên máy tính cá nhân.
 
-🚀 Cách chạy dự án
+##🚀 Cách chạy dự án
 Bạn có thể chạy toàn bộ chương trình chỉ với một cú click chuột:
 
 Mở Notebook: Click vào biểu tượng dưới đây để mở file trong môi trường Colab:
@@ -15,7 +15,7 @@ Chọn Hardware accelerator là T4 GPU để mô hình chạy nhanh hơn.
 
 Chạy tất cả: Nhấn Ctrl + F9 hoặc vào Runtime -> Run all.
 
-🛠️ Quy trình hoạt động (Workflow)
+##🛠️ Quy trình hoạt động (Workflow)
 Dự án bao gồm các bước chính trong file Notebook:
 
 Cài đặt thư viện: Tự động cài đặt các thư viện cần thiết (transformers, torch, v.v.).
@@ -26,10 +26,10 @@ Xử lý dữ liệu: Tokenize đầu vào từ người dùng.
 
 Tạo thơ: Thuật toán giải mã (Decoding) để sinh ra các câu thơ có vần điệu.
 
-📝 Lưu ý
+##📝 Lưu ý
 File notebook này yêu cầu kết nối internet để tải mô hình từ Hugging Face.
 
 Nếu bạn sử dụng dữ liệu riêng, hãy đảm bảo đã upload file dữ liệu lên Google Drive và mount Drive trong notebook.
 
-👤 Tác giả
+##👤 Tác giả
 Tên: [Phạm Thanh Tùng]
